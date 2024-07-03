@@ -1,0 +1,38 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Merhaba",
+                "Hey",
+                "Nasıl gidiyor?",
+                "Günaydın",
+                "İyi ben de"
+            ],
+            "responses":[
+                "Merhaba, Kevser. Hoş geldin!",
+                "Selam, kıpss kıpss. Nasılsın?"
+            ]
+        },
+
+        {
+            "tag":"name",
+            "patterns":[
+                "Adın nedir?",
+                "Seni nasıl çağırmamı istersiniz Yüce Baronum?"
+            ],
+            "responses":[
+                "Adım Coharadır Hoş geldiniz",
+                "Sen ne istiyorsan öyle çağır yavrum"
+            ]
+        },
+        {
+            "tag":"file",
+            "patterns":[
+                "dosya oluştur",
+                "yeni bir dosya oluştur"
+            ],
+            "responses":[]
+        }
+    ]
+}
